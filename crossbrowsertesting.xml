@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <test name="firefoxtestcase">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="crossbowser.tesco">
+
+            </class> <!-- tesco -->
+        </classes>
+    </test> <!-- parallaltest -->
+    <test name="irtestcase">
+        <parameter name="browser" value="ie"/>
+        <classes>
+            <class name="crossbowser.tesco">
+
+            </class> <!-- tesco -->
+        </classes>
+    </test>
+    <test name="chrometestcase">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="crossbowser.tesco">
+
+            </class> <!-- tesco -->
+        </classes>
+    </test>
+</suite> <!-- Default Suite -->
+

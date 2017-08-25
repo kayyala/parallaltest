@@ -1,0 +1,11 @@
+<suite name="Demoxmlfile" verbose="1" >
+    <test name="java" >
+        <Parameter name ="browser" value= "firefox"/>
+        <classes>
+
+            <class name="Crossbrowser.VerifyingPage" />
+
+
+        </classes>
+    </test>
+   </suite>
